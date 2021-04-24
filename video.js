@@ -36,7 +36,6 @@ function cargarFile(event) {
         fileSelector.value = "";
         alert("Error: Tipo de fichero incorrecto");
     }
-
 }
 
 // Reproducir
@@ -52,4 +51,4 @@ function pause() {
 // Selección de volumen con el range
 volumen.addEventListener("input", event => {
     video.volume = event.target.value;
-})
+});
